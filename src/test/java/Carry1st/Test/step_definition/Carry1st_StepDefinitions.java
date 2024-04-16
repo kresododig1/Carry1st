@@ -22,19 +22,19 @@ public class Carry1st_StepDefinitions {
     public void user_is_on_home_page_of_carry1st_web_application() {
 
         Driver.getDriver().get("https://shop.carry1st.com/");
-        BrowserUtils.sleep(1);
+        //BrowserUtils.sleep(1);
     }
     @When("user clicks on Sign In button")
     public void user_clicks_on_sign_in_button() {
 
         carry1stPage.signInButton.click();
-        BrowserUtils.sleep(2);
+        //BrowserUtils.sleep(1);
     }
     @When("user clicks CONTINUE WITH EMAIL button")
     public void user_clicks_continue_with_email_button() {
 
         carry1stPage.continueWithEmailLink.click();
-        BrowserUtils.sleep(2);
+        BrowserUtils.sleep(1);
     }
     @And("user enters {string} and {string} and clicks SIGN IN button")
     public void userEntersAndAndClicksSIGNINButton(String email, String password) {
