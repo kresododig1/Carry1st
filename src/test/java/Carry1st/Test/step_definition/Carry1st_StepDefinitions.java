@@ -1,18 +1,21 @@
 package Carry1st.Test.step_definition;
 
 import Carry1st.Test.pages.Carry1stPage;
+import Carry1st.Test.pages.PlayStationGiftCardPage;
 import Carry1st.Test.utilities.BrowserUtils;
 import Carry1st.Test.utilities.Driver;
-import com.github.javafaker.Faker;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.junit.Assert;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.time.Duration;
+import java.util.ArrayList;
+import java.util.List;
 
 public class Carry1st_StepDefinitions {
 
@@ -55,8 +58,39 @@ public class Carry1st_StepDefinitions {
         String actualFailedMessage = carry1stPage.failedMessage.getText();
         Assert.assertEquals("Message is NOT correct!", errorMessage, actualFailedMessage);
 
+    }
+
+    PlayStationGiftCardPage playStationGiftCardPage = new PlayStationGiftCardPage();
+
+    @When("user enters {string} in search box")
+    public void user_enters_in_search_box(String searchItem) {
+
+        carry1stPage.searchBox.sendKeys(searchItem);
+        BrowserUtils.sleep(2);
+
+
+
+    }
+    @When("user clicks on {string} in search suggestions")
+    public void user_clicks_on_in_search_suggestions(String string) {
+        carry1stPage.playStationGiftCardsSuggestion.click();
+        BrowserUtils.sleep(2);
 
     }
 
 
+    @Then("user should see options for vouchers with different prices")
+    public void userShouldSeeOptionsForVouchersWithDifferentPrices(List<String> expectedPrices) {
+
+        List<String> actualPrices = new ArrayList<>();
+
+        for (WebElement eachCard : playStationGiftCardPage.playStationGiftCards) {
+            actualPrices.add(eachCard.getText());
+        }
+
+        System.out.println("actualPrices = " + actualPrices);
+        System.out.println("expectedPrices = " + expectedPrices);
+
+        Assert.assertEquals("Cards prices are NOT matching", expectedPrices, actualPrices);
+    }
 }
