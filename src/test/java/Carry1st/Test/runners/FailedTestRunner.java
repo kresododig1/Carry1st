@@ -7,7 +7,7 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        glue = "com/cydeo/step_definitions",
+        glue = "Carry1st/Test/step_definition",
         features = "@target/rerun.txt"
 
 )
