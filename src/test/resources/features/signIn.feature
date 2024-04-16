@@ -1,6 +1,6 @@
 Feature: Carry1st Sign In with email and password
 
-
+@wip
   Scenario Outline: Negative Sign In scenario with 10 incorrect credentials
     Given user is on home page of Carry1st web application
     When user clicks on Sign In button
