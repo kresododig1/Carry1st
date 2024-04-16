@@ -5,6 +5,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+import java.util.List;
+
 public class Carry1stPage {
 
     public Carry1stPage(){
@@ -29,5 +31,12 @@ public class Carry1stPage {
 
     @FindBy (xpath = "//div[text()='Firebase: Error (auth/user-not-found).']")
     public WebElement failedMessage;
+
+    @FindBy (css = "input.aa-Input")
+    public WebElement searchBox;
+
+    @FindBy (id = "autocomplete-0-productsPlugin-item-26")
+    public WebElement playStationGiftCardsSuggestion;
+
 
 }
