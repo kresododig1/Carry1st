@@ -1,3 +1,4 @@
+@smoke @regression
 Feature: Carry1st search functionality
 
   @wip

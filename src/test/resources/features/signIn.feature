@@ -1,3 +1,4 @@
+@smoke @regression
 Feature: Carry1st Sign In with email and password
 
 @wip
@@ -22,3 +23,4 @@ Feature: Carry1st Sign In with email and password
       | eura.steuber@hotmail.com         | SSfnw7r16bhjkkhr | Firebase: Error (auth/user-not-found). |
       | veras.tzona@hotmail.com          | 4fnw7r16fghkqr   | Firebase: Error (auth/user-not-found). |
       | andy.cole@hotmail.com            | ertr16btggqr     | Firebase: Error (auth/user-not-found). |
+
