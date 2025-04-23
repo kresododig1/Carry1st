@@ -7,7 +7,8 @@ Feature: Carry1st search functionality
     When user enters "playstation gift card" in search box
     And user clicks on "PlayStation Gift Cards" in search suggestions
     Then user should see options for vouchers with different prices
-      | PlayStation US $10  |
-      | PlayStation US $25  |
-      | PlayStation US $50  |
-      | PlayStation US $100 |
+      | PSN Card 10 USD US  |
+      | PSN Card 25 USD US |
+      | PSN Card 50 USD US |
+      | PSN Card 100 USD US |
+      | PSN Card 75 USD US |

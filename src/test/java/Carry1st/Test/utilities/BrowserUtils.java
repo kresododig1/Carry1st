@@ -5,7 +5,10 @@ In this class only general utility methods that are NOT related to some specific
  */
 
 import org.junit.Assert;
+import org.openqa.selenium.By;
+import org.openqa.selenium.TimeoutException;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -71,6 +74,15 @@ public class BrowserUtils {
     public static void waitForInvisibilityOf(WebElement webElement){
         WebDriverWait wait = new WebDriverWait(Driver.getDriver(), Duration.ofSeconds(10));
         wait.until(ExpectedConditions.invisibilityOf(webElement));
+    }
+
+    // Add to your Driver class
+    public static void humanLikeClick(WebElement element) {
+        Actions actions = new Actions(Driver.getDriver());
+        actions.moveToElement(element)
+                .pause(500 + (long)(Math.random() * 1000))
+                .click()
+                .perform();
     }
 
 

@@ -3,9 +3,11 @@ package Carry1st.Test.utilities;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 import java.time.Duration;
+import java.util.Collections;
 
 public class Driver {
     /*
@@ -39,14 +41,18 @@ public class Driver {
             */
             switch (browserType) {
                 case "chrome":
-                    driverPool.set(new ChromeDriver());
-                    // driver.manage().window().maximize();
+
+                    ChromeOptions options = new ChromeOptions();
+                    options.addArguments("--incognito");
+
+
+
+                    driverPool.set(new ChromeDriver(options));
                     driverPool.get().manage().window().maximize();
-                    // driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
                     driverPool.get().manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
                     break;
-                case "firefox":
 
+                case "firefox":
 
                     driverPool.set(new FirefoxDriver());
                     driverPool.get().manage().window().maximize();
@@ -58,15 +64,13 @@ public class Driver {
         }
         return driverPool.get();
     }
-        // This method will make sure our driver value is always null after using quit() method
+
 
         public static void closeDriver () {
-//        if (driver != null) {
-//            driver.quit(); // this line will terminate the existing session. value will not even be null
-//            driver = null;
+
             if (driverPool.get() != null) {
                 driverPool.get().quit(); // this line will terminate the existing session. value will not even be null
-                driverPool.set(null); // or driverPool.remove();
+                driverPool.remove();
             }
         }
     }

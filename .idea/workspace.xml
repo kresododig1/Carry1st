@@ -4,33 +4,127 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f8eee0fa-21ce-436d-8178-80d38fdd7b28" name="Changes" comment="" />
+    <list default="true" id="f8eee0fa-21ce-436d-8178-80d38fdd7b28" name="Changes" comment="Updating pom.xml">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Carry1st/Test/pages/Carry1stPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Carry1st/Test/pages/Carry1stPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Carry1st/Test/step_definition/Carry1st_StepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Carry1st/Test/step_definition/Carry1st_StepDefinitions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Carry1st/Test/utilities/BrowserUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Carry1st/Test/utilities/BrowserUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Carry1st/Test/utilities/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Carry1st/Test/utilities/Driver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/searchFunctionality.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/searchFunctionality.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/signIn.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/signIn.feature" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2fAuJoAqjAfpw1KB4LwORVyRzbL" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
     <option name="showScratchesAndConsoles" value="false" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "kotlin-language-version-configured": "true",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Cucumber Java.Scenario: User should be abel search for items from search box in main page.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CukesRunner.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Carry1st [test].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Kresimir Dodig/IdeaProjects/JavaProgramming/JavaPractice/Carry1st&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Kresimir Dodig\IdeaProjects\JavaProgramming\JavaPractice\Carry1st" />
+      <recent name="C:\Users\Kresimir Dodig\IdeaProjects\JavaProgramming\JavaPractice\Carry1st\src\test\resources\features" />
+      <recent name="C:\Users\Kresimir Dodig\IdeaProjects\JavaProgramming\JavaPractice\Carry1st\src\test\java\Carry1st\Test\runners" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Carry1st.Test.step_definition" />
+      <recent name="Carry1st.Test.utilities" />
+      <recent name="Carry1st.Test.pages" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.CukesRunner">
+    <configuration name="Scenario: User should be abel search for items from search box in main page" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/searchFunctionality.feature" />
+      <option name="GLUE" value="Carry1st.Test.step_definition" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="Carry1st" />
+      <option name="NAME_FILTER" value="^User should be abel search for items from search box in main page$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^User should be abel search for items from search box in main page$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: User should be abel search for items from search box in main page" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CukesRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Carry1st" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Carry1st.Test.runners.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Carry1st.Test.runners" />
+      <option name="MAIN_CLASS_NAME" value="Carry1st.Test.runners.CukesRunner" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.CukesRunner" />
+        <item itemvalue="Cucumber Java.Scenario: User should be abel search for items from search box in main page" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-11.0.22-corretto-11.0.22-4caba194b151-868cef46" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -39,11 +133,194 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1713256135804</updated>
-      <workItem from="1713256137018" duration="7000" />
+      <workItem from="1713256137018" duration="11680000" />
+      <workItem from="1713516058673" duration="4731000" />
+      <workItem from="1744713144818" duration="1691000" />
+      <workItem from="1744798787245" duration="183000" />
     </task>
+    <task id="LOCAL-00001" summary="pom added">
+      <option name="closed" value="true" />
+      <created>1713256928831</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1713256928831</updated>
+    </task>
+    <task id="LOCAL-00002" summary="runners classes added">
+      <option name="closed" value="true" />
+      <created>1713257558775</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1713257558775</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Driver class added">
+      <option name="closed" value="true" />
+      <created>1713258172980</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1713258172980</updated>
+    </task>
+    <task id="LOCAL-00004" summary="configuration properties added">
+      <option name="closed" value="true" />
+      <created>1713258224999</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1713258224999</updated>
+    </task>
+    <task id="LOCAL-00005" summary="configuration reader added">
+      <option name="closed" value="true" />
+      <created>1713258285503</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1713258285503</updated>
+    </task>
+    <task id="LOCAL-00006" summary="BrowserUtils added">
+      <option name="closed" value="true" />
+      <created>1713258413512</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1713258413512</updated>
+    </task>
+    <task id="LOCAL-00007" summary="signIn feature added">
+      <option name="closed" value="true" />
+      <created>1713260706713</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1713260706713</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Carry1stPage added">
+      <option name="closed" value="true" />
+      <created>1713260733234</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1713260733235</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Carry1st_StepDefinitions added, glue changed in FailedTestRunner">
+      <option name="closed" value="true" />
+      <created>1713260787761</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1713260787761</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Hooks class added">
+      <option name="closed" value="true" />
+      <created>1713272597496</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1713272597496</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Carry1st_StepDefinitions change BrowserUtil sleep time">
+      <option name="closed" value="true" />
+      <created>1713272763069</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1713272763069</updated>
+    </task>
+    <task id="LOCAL-00012" summary="searchFunctionality.feature added">
+      <option name="closed" value="true" />
+      <created>1713298331664</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1713298331664</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Adding some WebElements to Carry1stPage, adding PlayStationGiftCardPage">
+      <option name="closed" value="true" />
+      <created>1713298446500</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1713298446500</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Adding Carry1st_StepDefinitions">
+      <option name="closed" value="true" />
+      <created>1713298476502</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1713298476502</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Adding @wip annotation in both feature files for parallel testing">
+      <option name="closed" value="true" />
+      <created>1713298913796</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1713298913796</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Adding README.MD">
+      <option name="closed" value="true" />
+      <created>1713520148411</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1713520148411</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Updating pom.xml">
+      <option name="closed" value="true" />
+      <created>1745397503362</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1745397503362</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="pom added" />
+    <MESSAGE value="runners classes added" />
+    <MESSAGE value="Driver class added" />
+    <MESSAGE value="configuration properties added" />
+    <MESSAGE value="configuration reader added" />
+    <MESSAGE value="BrowserUtils added" />
+    <MESSAGE value="signIn feature added" />
+    <MESSAGE value="Carry1stPage added" />
+    <MESSAGE value="Carry1st_StepDefinitions added, glue changed in FailedTestRunner" />
+    <MESSAGE value="Hooks class added" />
+    <MESSAGE value="Carry1st_StepDefinitions change BrowserUtil sleep time" />
+    <MESSAGE value="searchFunctionality.feature added" />
+    <MESSAGE value="Adding some WebElements to Carry1stPage, adding PlayStationGiftCardPage" />
+    <MESSAGE value="Adding Carry1st_StepDefinitions" />
+    <MESSAGE value="Adding @wip annotation in both feature files for parallel testing" />
+    <MESSAGE value="Adding README.MD" />
+    <MESSAGE value="Updating pom.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updating pom.xml" />
   </component>
 </project>

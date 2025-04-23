@@ -14,8 +14,12 @@ public class Carry1stPage {
         PageFactory.initElements(Driver.getDriver(), this);
     }
 
-    @FindBy (xpath = "//a[.='Sign In']")
+
+    @FindBy (css = "a>span.ml-2")
     public WebElement signInButton;
+
+    @FindBy (css = "\"button#wzrk-cancel\"")
+    public WebElement cancelPopBtn;
 
     @FindBy (xpath = "//p[.='Continue with email']")
     public WebElement continueWithEmailLink;
@@ -29,14 +33,17 @@ public class Carry1stPage {
     @FindBy (xpath = "//button[.='Sign in']")
     public WebElement signInWithEmailButton;
 
-    @FindBy (xpath = "//div[text()='Firebase: Error (auth/user-not-found).']")
-    public WebElement failedMessage;
 
-    @FindBy (css = "input.aa-Input")
+    @FindBy (css = "div[data-sentry-component='ErrorComponent']")
+    public WebElement captchaFailedMessage;
+
+    @FindBy (css = "button#autocomplete-1-label")
     public WebElement searchBox;
 
-    @FindBy (id = "autocomplete-0-productsPlugin-item-26")
+    @FindBy (css = "li#autocomplete-1-productsPlugin-item-18>div>div>img")
     public WebElement playStationGiftCardsSuggestion;
+
+
 
 
 }
