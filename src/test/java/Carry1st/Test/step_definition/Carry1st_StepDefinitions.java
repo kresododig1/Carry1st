@@ -47,7 +47,7 @@ public class Carry1st_StepDefinitions {
     @When("user clicks on Sign In button")
     public void user_clicks_on_sign_in_button() {
 
-        BrowserUtils.sleep(2);
+        //BrowserUtils.sleep(2);
         BrowserUtils.humanLikeClick(carry1stPage.signInButton);
 
 
@@ -73,16 +73,16 @@ public class Carry1st_StepDefinitions {
         try {
             WebDriverWait shortWait = new WebDriverWait(Driver.getDriver(), Duration.ofSeconds(5));
             WebElement stayInformedBtn = shortWait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("button#wzrk-cancel")));
-            BrowserUtils.sleep(3);
+            //BrowserUtils.sleep(3);
             stayInformedBtn.click();
         } catch (TimeoutException e){
             System.out.println("\"Shop Smart, Stay informed\" message did not \"Pop up!!!\"");
         }
-        BrowserUtils.sleep(1);
+        //BrowserUtils.sleep(1);
         carry1stPage.emailInputBox.sendKeys(email);
         BrowserUtils.sleep(1);
         carry1stPage.passwordInputBox.sendKeys(password);
-        BrowserUtils.sleep(1);
+       // BrowserUtils.sleep(1);
 
         WebDriverWait wait = new WebDriverWait(Driver.getDriver(), Duration.ofSeconds(10));
         wait.until(ExpectedConditions.elementToBeClickable(carry1stPage.signInWithEmailButton));
